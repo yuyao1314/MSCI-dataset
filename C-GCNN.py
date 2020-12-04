@@ -1,5 +1,5 @@
 from keras.models import Sequential, load_model
-from keras.layers import Input, Dense, Flatten, Conv2D, MaxPooling2D, Concatenate, LSTM, Dropout, Activation, Reshape, \
+from keras.layers import Input, Dense, Flatten, Conv2D, MaxPooling2D, Concatenate, GRU, Dropout, Activation, Reshape, \
     AveragePooling2D
 from keras import applications
 from keras.optimizers import SGD, adam
